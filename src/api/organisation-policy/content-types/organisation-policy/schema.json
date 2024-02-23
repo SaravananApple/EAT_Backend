@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "organisation_policies",
+  "info": {
+    "singularName": "organisation-policy",
+    "pluralName": "organisation-policies",
+    "displayName": "organisation_policy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "policy_name": {
+      "type": "string"
+    },
+    "updated_date": {
+      "type": "datetime"
+    },
+    "expired_date": {
+      "type": "datetime"
+    },
+    "policy_pdf": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

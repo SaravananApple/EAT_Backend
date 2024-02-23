@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "errors",
+  "info": {
+    "singularName": "error",
+    "pluralName": "errors",
+    "displayName": "Error",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "file_no": {
+      "type": "integer"
+    },
+    "define_error": {
+      "type": "string"
+    },
+    "containment": {
+      "type": "string"
+    },
+    "determine_root_cause": {
+      "type": "string"
+    },
+    "corrective_action": {
+      "type": "string"
+    },
+    "preventive_action": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "time_taken": {
+      "type": "datetime"
+    },
+    "remarks": {
+      "type": "richtext"
+    },
+    "est": {
+      "type": "datetime"
+    },
+    "start_date": {
+      "type": "date"
+    },
+    "end_date": {
+      "type": "date"
+    },
+    "effort": {
+      "type": "datetime"
+    },
+    "reviewer": {
+      "type": "string"
+    },
+    "reviewer_record": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "check_points",
+  "info": {
+    "singularName": "check-point",
+    "pluralName": "check-points",
+    "displayName": "check_point",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "check_responsiveness": {
+      "type": "string"
+    },
+    "validate_html_css": {
+      "type": "string"
+    },
+    "optimize_scripts": {
+      "type": "string"
+    },
+    "optimize_images": {
+      "type": "string"
+    },
+    "optimize_css": {
+      "type": "string"
+    },
+    "upload_favicon": {
+      "type": "string"
+    },
+    "check_paragraph_styles": {
+      "type": "string"
+    },
+    "file_no": {
+      "type": "integer"
+    }
+  }
+}

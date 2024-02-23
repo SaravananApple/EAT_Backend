@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "external_errors",
+  "info": {
+    "singularName": "external-error",
+    "pluralName": "external-errors",
+    "displayName": "external_error",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "file_no": {
+      "type": "integer"
+    },
+    "define_error": {
+      "type": "string"
+    },
+    "containment": {
+      "type": "string"
+    },
+    "determine_root_cause": {
+      "type": "string"
+    },
+    "corrective_action": {
+      "type": "string"
+    },
+    "preventive_action": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "richtext"
+    },
+    "start_date": {
+      "type": "date"
+    },
+    "end_date": {
+      "type": "date"
+    },
+    "reviewer": {
+      "type": "string"
+    },
+    "reviewer_record": {
+      "type": "richtext"
+    },
+    "est": {
+      "type": "decimal"
+    },
+    "effort": {
+      "type": "decimal"
+    },
+    "time_taken": {
+      "type": "decimal"
+    }
+  }
+}
